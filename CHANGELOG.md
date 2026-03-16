@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-16)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`e1bf01b`](https://github.com/stdlib-js/stdlib/commit/e1bf01b608e845ac2722b9ef2df8979f7fa556a4) - **bench:** refactor to use string interpolation in `stats/base/ndarray/drange` [(#10996)](https://github.com/stdlib-js/stdlib/pull/10996) _(by Partha Das)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Partha Das
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
