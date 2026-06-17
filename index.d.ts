@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,28 +16,35 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { float64ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Compute the range of a one-dimensional double-precision floating-point ndarray.
+* Computes the range of a one-dimensional double-precision floating-point ndarray.
 *
-* @module @stdlib/stats-base-ndarray-drange
+* ## Notes
+*
+* -   The function expects the following ndarrays:
+*
+*     -   a one-dimensional input ndarray.
+*
+* @param arrays - array-like object containing ndarrays
+* @returns range
 *
 * @example
 * var Float64Vector = require( '@stdlib/ndarray-vector-float64' );
-* var drange = require( '@stdlib/stats-base-ndarray-drange' );
 *
 * var x = new Float64Vector( [ 1.0, 3.0, 4.0, 2.0 ] );
 *
 * var v = drange( [ x ] );
 * // returns 3.0
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function drange( arrays: [ float64ndarray ] ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = drange;
