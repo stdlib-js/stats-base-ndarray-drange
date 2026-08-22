@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-03)
+## Unreleased (2026-08-22)
+
+<section class="features">
+
+### Features
+
+-   [`be6034d`](https://github.com/stdlib-js/stdlib/commit/be6034d41f06cda010fe5345a7443fe29e1d3281) - add C implementation for `stats/base/ndarray/drange` [(#14523)](https://github.com/stdlib-js/stdlib/pull/14523)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`be6034d`](https://github.com/stdlib-js/stdlib/commit/be6034d41f06cda010fe5345a7443fe29e1d3281) - **feat:** add C implementation for `stats/base/ndarray/drange` [(#14523)](https://github.com/stdlib-js/stdlib/pull/14523) _(by Ujjwal Verma)_
 -   [`a403638`](https://github.com/stdlib-js/stdlib/commit/a403638f69923986e5da20a2ad8e4f9653b8eef6) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`e1bf01b`](https://github.com/stdlib-js/stdlib/commit/e1bf01b608e845ac2722b9ef2df8979f7fa556a4) - **bench:** refactor to use string interpolation in `stats/base/ndarray/drange` [(#10996)](https://github.com/stdlib-js/stdlib/pull/10996) _(by Partha Das)_
 
@@ -25,10 +36,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Partha Das
+-   Ujjwal Verma
 
 </section>
 
